@@ -12,18 +12,28 @@
 html {
 	margin: 0;
 	padding: 0;
+	margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+	
 	}
 body { 
 	font: 75% georgia, sans-serif;
 	line-height: 1.88889;
 	color: #555753; 
-	background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; 
+	background: #fff url("../images/AlbertoBackground2.jpg") no-repeat top right; 
+	background-attachment: fixed;
+	background-size: contain;
+	background-size: 300px;
 	margin: 0; 
 	padding: 0;
 	}
 p { 
 	margin-top: 0; 
 	text-align: justify;
+	font-family: "Times New Roman", Times, serif;
+	
 	}
 h3 { 
 	font: italic normal 1.4em georgia, sans-serif;
@@ -87,6 +97,15 @@ header h2 {
 	white-space: nowrap;
 	overflow: hidden;
 	}
+
+h2 {
+	color: red; 
+	background-color: lightblue; 
+	border: 1px solid blue; 
+	text-align: center; 
+	padding: 0.5em;
+}
+
 header {
 	padding-top: 20px;
 	height: 87px;
