@@ -85,15 +85,14 @@ header h1 {
 	white-space: nowrap;
 	overflow: hidden;
 	}
-header h2 { 
-	background: transparent url(http://csszengarden.com/001/h2.gif) no-repeat top left; 
-	margin-top: 58px; 
+header h2 {  
+	background: #000000;
+	margin-top: auto; 
 	margin-bottom: 40px; 
-	width: 200px; 
+	margin-left: 100px;
+	margin-right: 130px;
 	height: 18px; 
-	float: right;
-
-	text-indent: 100%;
+	text-align: center;
 	white-space: nowrap;
 	overflow: hidden;
 	}
@@ -101,7 +100,7 @@ header h2 {
 h2 {
 	color: red; 
 	background-color: lightblue; 
-	border: 1px solid blue; 
+	border: 1px solid #ADD8E6; 
 	text-align: center; 
 	padding: 0.5em;
 }
