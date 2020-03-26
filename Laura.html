@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-	  <link href="css/bootstrap.min.css" > 
+	  <link href="css/bootstrap.min.css" rel="stylesheet"> 
 	  <link href="css/style.css" rel="stylesheet" type="text/css">
 	  <link href="https://fonts.googleapis.com/css?family=Amatic SC" rel="stylesheet">
 <style>
@@ -62,17 +62,24 @@ body {
     <li data-target="carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+	<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/IMG-20200202-WA0013.jpg" height="300" class="d-block w-100" alt="Alberto looking into the camera">
+      <img src="images/IMG-20200202-WA0013.jpg" height="" class="d-block w-100" alt="Alberto looking into the camera">
     </div>
     <div class="carousel-item">
-      <img src="images/AlbertoOnThrownCloseUp@0.3x.jpg" height="300" class="d-block w-100" alt="Alberto on thrown">
+      <img src="images/AlbertoOnThrownCloseUp@0.3x.jpg" height="" class="d-block w-100" alt="Alberto on thrown">
     </div>
     <div class="carousel-item">
-      <img src="images/AlbertoWaitingForCookies@0.3x.jpg" height="300" class="d-block w-100" alt="Alberto waiting for his cookies">
+      <img src="images/AlbertoWaitingForCookies@0.3x.jpg" height="" class="d-block w-100" alt="Alberto waiting for his cookies">
     </div>
+	  <div class="carousel-item">
+      <img src="images/AlbertoRestingOnHand@0.3x.jpg" height="" class="d-block w-100" alt="Alberto resting on my hand">
+    </div>
+	  <div class="carousel-item">
+      <img src="images/AlbertoWaitingForCookies@0.3x.jpg" height="" class="d-block w-100" alt="Alberto waiting for his cookies">
+	  </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -83,16 +90,13 @@ body {
     <span class="sr-only">Next</span>
   </a>
 </div>
-		<img src="images/IMG-20200202-WA0013.jpg" height="240" alt="Alberto looking into the camera">
-      <img src="images/AlbertoOnThrownCloseUp@0.3x.jpg" height="240" alt="Alberto on thrown"> 
       <video src="images/20200224_163823.mp4" height="240" controls>Video not supported</video>
     </div>
 	<footer>
   <p>Posted by: Laura Wilkes</p>
-  <p>Contact information: <button type="button" href="https://www.buas.nl/" class="btn btn-outline-info">Click here to go to BUAS.nl</button>
-	  <a href="https://www.buas.nl/" target="_blank">Click here to go to BUAS.nl</a></p>
+  <p>Contact information: <a class="btn btn-outline-info" href="https://www.buas.nl/" role="button">Click here to go to BUAS.nl</a></p>
 </footer>
-<script src="jquery-3.4.1.min.js"> </script>
+<script src="js/jquery-3.4.1.slim.min.js"> </script>
 <script src="js/bootstrap.bundle.min.js"> </script>
   </body>
 </html>
