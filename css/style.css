@@ -86,19 +86,19 @@ header h1 {
 	overflow: hidden;
 	}
 header h2 {  
-	background: #000000;
+	background: #939691;
 	margin-top: auto; 
-	margin-bottom: 40px; 
+	margin-bottom: auto; 
 	margin-left: 100px;
 	margin-right: 130px;
-	height: 18px; 
+	height: 35px; 
 	text-align: center;
 	white-space: nowrap;
-	overflow: hidden;
+	overflow: inherit;
 	}
 
 h2 {
-	color: red; 
+	color: maroon; 
 	background-color: lightblue; 
 	border: 1px solid #ADD8E6; 
 	text-align: center; 
